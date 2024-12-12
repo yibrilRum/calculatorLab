@@ -21,4 +21,6 @@ app.get("/div", (req, res) => {
   return res.json({ result, remainder })
 });
 
-app.listen(port, () => {console.log("Server running on " + port)});
+// app.listen(port, () => {
+//  console.log("Server running on " + port)
+// });
